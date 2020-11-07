@@ -2,18 +2,21 @@ set langmenu=en_US.UTF-8
 language en_US.UTF-8
 let mapleader=" "
 
+" Faster split sizing
+map - <C-W>-
+map + <C-W>+
+
 set encoding=UTF-8
 set number
 set cursorline
 set cursorcolumn
 set splitbelow
 set splitright
+set hlsearch
+set incsearch
 
 autocmd FileType * setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType c setlocal shiftwidth=2 tabstop=2
-
-set hlsearch
-set incsearch
 
 syntax on
 filetype plugin indent on
