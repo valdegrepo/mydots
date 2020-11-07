@@ -6,6 +6,12 @@ let mapleader=" "
 map - <C-W>-
 map + <C-W>+
 
+" Moving between splits
+map <leader>h :wincmd h<CR>
+map <leader>j :wincmd j<CR>
+map <leader>k :wincmd k<CR>
+map <leader>l :wincmd l<CR>
+
 set encoding=UTF-8
 set number
 set cursorline
