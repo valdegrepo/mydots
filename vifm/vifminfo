@@ -1,0 +1,223 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/valdeg/
+	..
+1595752220
+'b
+	/home/valdeg/bin/
+	..
+1595752220
+'h
+	/home/valdeg/
+	..
+1595752220
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/valdeg/aur/st
+	TODO
+6
+d/home/valdeg/aur
+	nerd-fonts-complete
+1
+d/home/valdeg/aur/nerd-fonts-complete
+	..
+0
+d/home/valdeg/aur
+	nerd-fonts-complete
+1
+d/home/valdeg
+	aur
+2
+d/home
+	valdeg
+1
+d/home/valdeg
+	Downloads
+1
+d/home/valdeg/Downloads
+	bootstrap-3.4.1-dist.zip
+1
+d/home/valdeg
+	aur
+1
+d/home
+	valdeg
+1
+d/home/valdeg
+	git
+3
+d/home/valdeg/git
+	dwm-valdeg
+3
+d/home/valdeg/git/dwm-valdeg
+	drw.h
+8
+d/home/valdeg/git
+	dotfiles
+1
+d/home/valdeg
+	storage
+4
+d/home
+	valdeg
+1
+d/home/valdeg
+	documents
+2
+d/home/valdeg/documents
+	downloads
+1
+d/home/valdeg/documents/downloads
+	..
+0
+d/home/valdeg/documents
+	downloads
+1
+d/home/valdeg
+	.config
+2
+d/home/valdeg/.config
+	vifm
+9
+d/home/valdeg/.config/vifm
+	colors
+1
+d/home/valdeg/.config
+	..
+0
+d/home/valdeg
+	known_hosts
+22
+d/home
+	valdeg
+1
+d/home/valdeg
+	core-networks.ods
+21
+d/home
+	valdeg
+1
+d/home/valdeg
+	git
+11
+d/home
+	valdeg
+1
+d/home/valdeg
+	git
+11
+d/home/valdeg/git
+	dwm
+2
+d/home/valdeg/git/dwm
+	config.h
+7
+d/home/valdeg/git
+	dwm-valdeg
+3
+d/home/valdeg/git/dwm-valdeg
+	config.h
+6
+d/home/valdeg/git
+	dwm-valdeg
+3
+d/home/valdeg
+	.config
+2
+d/home/valdeg/.config
+	statusbar.sh
+15
+d
+
+# Right window history (oldest to newest):
+D/home/valdeg/aur/st
+	..
+0
+D/home/valdeg/aur
+	..
+0
+D/home/valdeg
+	aur
+1
+D/home
+	valdeg
+1
+D/
+	dev
+2
+D/dev
+	vfio
+20
+D/dev/vfio
+	vfio
+1
+D/dev
+	disk
+6
+D/dev/disk
+	by-partuuid
+2
+D/dev/disk/by-partuuid
+	..
+0
+D/dev/disk
+	by-id
+1
+D/dev/disk/by-id
+	ata-KINGSTON_SV300S37A240G_50026B7756045AF6-part2
+3
+D/dev/disk
+	by-id
+1
+D/dev
+	disk
+6
+D/
+	home
+4
+D/home
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:!unzip bootstrap-3.4.1-dist.zip
+:q
+:! sudo make clean install
+
+# Search history (oldest to newest):
+/colo
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].1
+]F
+s0
