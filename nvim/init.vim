@@ -3,8 +3,8 @@ language en_US.UTF-8
 let mapleader=" "
 
 " Faster split sizing
-map - <C-W>-
-map + <C-W>+
+map - <C-W><
+map = <C-W>>
 
 " Moving between splits
 map <leader>h :wincmd h<CR>
