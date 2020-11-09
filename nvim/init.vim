@@ -3,8 +3,8 @@ language en_US.UTF-8
 let mapleader=" "
 
 " Faster split sizing
-map - <C-W><
-map = <C-W>>
+map <leader>- <C-W><
+map <leader>= <C-W>>
 
 " Moving between splits
 map <leader>h :wincmd h<CR>
@@ -53,4 +53,5 @@ let g:airline_symbols.readonly = ''
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_setColors = 0
+let g:indentLine_char_list = ['·', '·']
