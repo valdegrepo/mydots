@@ -34,4 +34,17 @@ alias ll="ls -alh --color=always"
 alias gst="git status"
 alias gp="git push"
 
-PROMPT="%# %F{cyan}%n @ %M%f "
+# Prompt segments
+
+MYDOTS_L_SQUARE="%F{cyan}[%f"
+MYDOTS_R_SQUARE="%F{cyan}]%f"
+MYDOTS_HOSTNAME="%F{magenta}%B%M%b%f"
+MYDOTS_GIT="%F{cyan}(%fgit%F{cyan})%f"
+MYDOTS_ARROW="%F{yellow}%B->%b%f"
+
+
+PROMPT="$MYDOTS_ROOT$MYDOTS_L_SQUARE$MYDOTS_HOSTNAME$MYDOTS_R_SQUARE $MYDOTS_ARROW "
+
+if [ -d .git ]; then
+  RPROMPT+="$MYDOTS_GIT"
+fi

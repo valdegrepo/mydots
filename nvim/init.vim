@@ -14,6 +14,7 @@ map <leader>l :wincmd l<CR>
 
 set encoding=UTF-8
 set number
+set relativenumber
 set cursorline
 set cursorcolumn
 set splitbelow
@@ -34,6 +35,7 @@ Plug 'dracula/vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'Yggdroot/indentLine'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 colorscheme dracula
