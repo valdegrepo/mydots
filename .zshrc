@@ -33,3 +33,5 @@ alias ls="ls --color=always"
 alias ll="ls -alh --color=always"
 alias gst="git status"
 alias gp="git push"
+
+PROMPT="%# %F{cyan}%n @ %M%f "
