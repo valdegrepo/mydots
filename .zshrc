@@ -22,6 +22,17 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats 'on branch %b'
+ 
+# Set up the prompt (with git branch name)
+setopt PROMPT_SUBST
+PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
+
 
 # Aliases
 alias zshrc='vim ~/.zshrc'
@@ -39,12 +50,10 @@ alias gp="git push"
 MYDOTS_L_SQUARE="%F{cyan}[%f"
 MYDOTS_R_SQUARE="%F{cyan}]%f"
 MYDOTS_HOSTNAME="%F{magenta}%B%M%b%f"
-MYDOTS_GIT="%F{cyan}(%fgit%F{cyan})%f"
+MYDOTS_GIT=""
 MYDOTS_ARROW="%F{yellow}%B->%b%f"
+MYDOTS_DIR="%/"
 
 
-PROMPT="$MYDOTS_ROOT$MYDOTS_L_SQUARE$MYDOTS_HOSTNAME$MYDOTS_R_SQUARE $MYDOTS_ARROW "
-
-if [ -d .git ]; then
-  RPROMPT+="$MYDOTS_GIT"
-fi
+PROMPT="$MYDOTS_ROOT$MYDOTS_L_SQUARE$MYDOTS_HOSTNAME$MYDOTS_R_SQUARE $MYDOTS_DIR $MYDOTS_ARROW "
+RPROMPT=\$vcs_info_msg_0_
