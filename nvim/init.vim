@@ -51,6 +51,7 @@ endif
 
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
+let g:airline_symbols.maxlinenr = ' ln'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
